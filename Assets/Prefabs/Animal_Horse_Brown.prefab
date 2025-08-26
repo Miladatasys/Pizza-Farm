@@ -108,6 +108,8 @@ GameObject:
   - component: {fileID: 7369688625479838161}
   - component: {fileID: 4402886465387926709}
   - component: {fileID: 3343736535971211507}
+  - component: {fileID: 6102312089604479722}
+  - component: {fileID: 9144917958094536022}
   m_Layer: 0
   m_Name: Animal_Horse_Brown
   m_TagString: Untagged
@@ -183,6 +185,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12a00dce60b1694b96813a4689d5bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &6102312089604479722
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676063163938571694}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 17.93736, y: 37.673878, z: 44.062065}
+  m_Center: {x: -0.9106153, y: 18.336927, z: 4.561126}
+--- !u!114 &9144917958094536022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676063163938571694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c766071caee460d47a50508d81ea8b0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &689076639449982532
 GameObject:
   m_ObjectHideFlags: 0

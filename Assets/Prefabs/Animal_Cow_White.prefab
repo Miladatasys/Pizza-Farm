@@ -1964,6 +1964,8 @@ GameObject:
   - component: {fileID: 181406277687842064}
   - component: {fileID: 1900458952569166315}
   - component: {fileID: 5026966743307402209}
+  - component: {fileID: 6480162836831767358}
+  - component: {fileID: 7111973962807391791}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -2034,6 +2036,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12a00dce60b1694b96813a4689d5bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &6480162836831767358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8808132870645864138}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 17.254576, y: 31.782978, z: 49.88736}
+  m_Center: {x: -0.24536914, y: 15.391485, z: -0.17546546}
+--- !u!114 &7111973962807391791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8808132870645864138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c766071caee460d47a50508d81ea8b0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &9113867172954630695
 GameObject:
   m_ObjectHideFlags: 0
